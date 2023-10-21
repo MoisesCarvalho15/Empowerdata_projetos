@@ -6,6 +6,22 @@
 
 ## Projeto 01 - Gerador de um orçamento em pdf
 
-- Objetivo: Gerar automaticamente PDFs Python
-- Funcionamento da aplicação: 
-  - Os dados inseridos pelo usuário, será inserido nos espaços referente no template.
+- **Objetivo:** Gerar automaticamente PDFs Python através dos dados inseridos pelo usuário. Esses dados será inserido nos espaços referente no template.
+- **Biblioteca utilizada:** 
+  - FPDF
+- [Ver o projeto.](Projeto1/OrcamentoPDF.ipynb)
+
+---
+
+## Projeto 02 - Obtendo dados de uma ação automaticamente
+
+- **Objetivo:** Enviar um relatório com os valores de cotação mínima, cotação máxima, cotação do dia da ação selecionada pelo usuário. 
+- Os dados obtidos serão através de uma biblioteca de finanças.
+- O programa deverá abrir automaticamente a página do GMail e preencher os dados de envio automaticamente.
+- **Bibliotecas utilizadas:**
+  - yfinance
+  - pyautogui
+  - pyperclip
+- **Observações deste programa:**
+  - O usuário deverá já estar logado em sua conta GMail. Caso contrário, o programa não funcionará.
+- [Ver o projeto.](Projeto2/Buscando_dados_automaticamente.ipynb)
